@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const BASE_API_URL = "https://gigantic-recruitment.up.railway.app";
+  const BASE_API_URL = "https://gigantic-recruitment.up.railway.app/api";
   let authToken = localStorage.getItem("token");
 
   // ============================================================
