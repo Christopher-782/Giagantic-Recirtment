@@ -41,7 +41,7 @@ async function createDefaultAdmin() {
     const existingAdmin = await User.findOne({ email: adminEmail });
 
     if (existingAdmin) {
-      console.log("ℹ️  Admin account already exists");
+      console.log("ℹ  Admin account already exists");
       return;
     }
 
